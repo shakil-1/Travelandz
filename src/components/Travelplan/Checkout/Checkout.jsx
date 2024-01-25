@@ -46,10 +46,10 @@ const Checkout = () => {
             </div>
             <div className="flex  bg-[#F6F6F6] mt-8  w-full    h-[46px] rounded-[80px]">
               <div className="py-[5px] pl-1 flex gap-x-[13px]">
-                <button className="w-[100px] md:w-[178px] h-[36px] rounded-[80px] border-1 bg-[#FFF] border-[#E1E1E1] shadow-shaDo">
+                <button className="w-[100px] md:w-[150px] h-[36px] rounded-[80px] border-1 bg-[#FFF] border-[#E1E1E1] shadow-shaDo">
                   Hotel only
                 </button>
-               <button className="text-base  text-[#8E8E92] font-sm md:font-medium">Hotel + Experiences</button>
+               <button className="text-base  text-[#8E8E92]  md:font-medium">Hotel + Experiences</button>
               </div>
             </div>
 

@@ -8,14 +8,14 @@ const Navbar = () => {
     setNavbar(!navbar);
   };
   const navItems = <>
-  <li><Link to="/">About</Link></li>
+  <li><Link to="/">Home</Link></li>
   <li><Link to="/travelplan">Travelandz</Link></li>
-  <li><Link to="/">Famous destinations</Link></li>
-  <li><Link to="/">Contact us</Link></li>
+  <li><Link to="/slider">Famous destinations</Link></li>
+  <li><Link to="/contact">Contact us</Link></li>
   </>
 
   return (
-    <div className='max-w-mxWidth text-gray-500 flex justify-between  items-center h-[80px] mx-auto '>
+    <div className='max-w-mxWidth text-gray-500 sticky    flex justify-between  items-center h-[80px] mx-auto px-5 '>
       <Link to="/"><img className="h-[35px]" src={logo}  alt="logo" /></Link>
       <ul className='hidden md:flex flex-grow justify-center items-center gap-x-8 '>
         {navItems}

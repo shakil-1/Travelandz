@@ -1,12 +1,11 @@
 import b1 from "../../../assets/b1.png";
 import b2 from "../../../assets/b2.png";
 import b3 from "../../../assets/b3.png";
-import circle from "../../../assets/icon/tick-circle.svg";
-import Facilities from "../../share/Facilities";
+
 import { IoIosStar } from "react-icons/io";
 import { FiRefreshCw } from "react-icons/fi";
 import A from "../../A";
-
+import { CiCircleChevDown } from "react-icons/ci";
 import TravelplanNavbar from "../TravelplanNavbar/TravelplanNavbar";
 import Checkout from "../Checkout/Checkout";
 import { useState } from "react";
@@ -32,16 +31,18 @@ const Travelplan = () => {
           <div className="lg:flex gap-x-6 ">
             <div className="lg:w-[848px]">
               <div className="flex flex-col-reverse  lg:flex-col">
-                <div className="mb-10 mt-6 lg:mt-0">
+                <div className="mb-8 mt-6 lg:mt-0">
                   <h1 className="text-[#1B1B1E] text[25px] mt-[14px] lg:mt-2 lg:text-3xl font-bold">
                     Hotel de Mar Gran Meliá
                   </h1>
                   <div className="  md:text-base font-normal lg:flex items-center gap-x-2 text-[#1B1B1E]">
-                    <IoIosStar className="w-4 h-4 text-[#1B1B1E]" /> 4.3 •
+                   <div className="flex items-center gap-x-1">
+                   <IoIosStar className="w-4 h-4 text-[#1B1B1E]" /> <span> 4.3 •
                     <span className="border-b-1 border-[#3C3C43]">
                       (112 reviews)
                     </span>
-                    •
+                    •</span>
+                   </div>
                     <br />
                     <span className="border-b-1 border-[#3C3C43]">
                       Paseo de las Illetas, 7, Mallorca
@@ -91,14 +92,29 @@ const Travelplan = () => {
               <hr className="my-10" />
               <div>
                 <h5 className="text-[25px] text-black font-bold">Facilities</h5>
-                <div className="mt-6 flex flex-wrap gap-x-16 gap-y-6">
-                  <Facilities icons={circle} title="24/7 Front desk" />
-                  <Facilities icons={circle} title="Valet parking" />
-                  <Facilities icons={circle} title="Swimming pool" />
-                  <Facilities icons={circle} title="Golf par" />
-                  <Facilities icons={circle} title="Airport pickup" />
-                  <Facilities icons={circle} title="Spa and Gym" />
-                  <Facilities icons={circle} title="Free WiFi all rooms" />
+                <div className="mt-6 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4  lg:gap-x-6 gap-y-6">
+                
+                  <div className="flex items-center gap-4">
+                    <CiCircleChevDown  /> <span>24/7 Front desk</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <CiCircleChevDown  /> <span>Valet parking</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <CiCircleChevDown  /> <span>Swimming pool</span>
+                  </div>
+                  <div className="flex items-center gap-4 ">
+                    <CiCircleChevDown  /> <span>Golf park</span>
+                  </div>
+                  <div className="flex items-center gap-4 ">
+                    <CiCircleChevDown  /> <span>Airport pickup</span>
+                  </div>
+                  <div className="flex items-center gap-4 ">
+                    <CiCircleChevDown  /> <span>Spa and Gym</span>
+                  </div>
+                  <div className="flex items-center gap-4 ">
+                    <CiCircleChevDown  /> <span>Free WiFi all rooms</span>
+                  </div>
                 </div>
               </div>
 

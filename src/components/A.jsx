@@ -6,7 +6,8 @@ const A = () => {
   return (
  <div className="mb-[180px]  ">
 {/* 1 */}
-      <div className="relative lg:w-[848px]  rounded-[20px]  bg-[#F1F1F1]">
+  
+      <div className="relative lg:w-[848px]   rounded-[20px]  bg-[#F1F1F1] mt-6">
         <input
           type="checkbox"
           className="absolute peer opacity-0"
@@ -17,7 +18,7 @@ const A = () => {
           className="font-bold  tracking-[1px] mx-[20px] h-[72px] flex items-center text-lg text-[#1B1B1E]"
           htmlFor="input1"
         >
-          Day 1
+         Day 1
         </label>
         <h3 className="absolute top-[25px] left-[100px] text-base font-normal text-[#8E8E92]">
           03 June 2023
@@ -29,7 +30,7 @@ const A = () => {
           <div className="p-6">
             <div className="mt-[22px] flex  justify-between">
               <div className="flex gap-x-[10px]">
-                <button className="border w-24  bg-[#FFF] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#1B1B1E]">
+                <button className="border-1 border-[#EC6274] w-24  bg-[#FFF] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#1B1B1E]">
                   Morning
                 </button>
                 <button className="w-[110px] bg-[#F4F4F4] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#4E4E4E]">
@@ -49,7 +50,7 @@ const A = () => {
               </div>
             </div>
             <div className="mt-[26px] border-[1px] rounded-[15px] bg-[#FFF] border-[#EAEAEA] h-[294px] w-[387px]">
-             <div className="relative">
+            <div className="relative">
              <img className="h-[140px]  w-full" src={c1} alt="" />
               <img className="absolute top-4 right-4 w-8 h-8 " src={group} alt="" />
              </div>
@@ -93,7 +94,7 @@ const A = () => {
           <div className="p-6">
             <div className="mt-[22px] flex  justify-between">
               <div className="flex gap-x-[10px]">
-                <button className="border w-24  bg-[#FFF] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#1B1B1E]">
+                <button className="border-1 border-[#EC6274]  w-24  bg-[#FFF] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#1B1B1E]">
                   Morning
                 </button>
                 <button className="w-[110px] bg-[#F4F4F4] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#4E4E4E]">
@@ -157,7 +158,7 @@ const A = () => {
           <div className="p-6">
             <div className="mt-[22px] flex  justify-between">
               <div className="flex gap-x-[10px]">
-                <button className="border w-24  bg-[#FFF] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#1B1B1E]">
+                <button className="border-1 border-[#EC6274]  w-24  bg-[#FFF] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#1B1B1E]">
                   Morning
                 </button>
                 <button className="w-[110px] bg-[#F4F4F4] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#4E4E4E]">
@@ -221,7 +222,7 @@ const A = () => {
           <div className="p-6">
             <div className="mt-[22px] flex  justify-between">
               <div className="flex gap-x-[10px]">
-                <button className="border w-24  bg-[#FFF] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#1B1B1E]">
+                <button className="border-1 border-[#EC6274]  w-24  bg-[#FFF] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#1B1B1E]">
                   Morning
                 </button>
                 <button className="w-[110px] bg-[#F4F4F4] py-[7px] rounded-[100px] px-4 text-base font-semibold text-[#4E4E4E]">
